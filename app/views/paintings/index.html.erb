@@ -1,0 +1,17 @@
+<div class="main">
+
+	<h1>Awesome Famous Paintings</h1>
+
+	<% @paintings.each do |p| %>
+
+
+		<div class="painting">
+			<%=p.name%>
+		</div>
+		<div class="details">
+			Painted by <%=p.artist%> in <%=p.year %>.
+		</div>
+
+	<% end %>
+
+</div>
