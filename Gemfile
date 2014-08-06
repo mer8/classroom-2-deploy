@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'mongoid', github: 'mongoid/mongoid'
 
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -41,3 +42,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rails_12factor'
+
+
+
+
